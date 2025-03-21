@@ -1,9 +1,9 @@
 #include <Arduino.h>
 #include <WiFi.h>
+//#include <WiFiUdp.h>
 #include <AsyncUDP.h>
 
-// put function declarations here:
-int myFunction(int, int);
+WiFiUDP udp;
 
 void setup() {
   Serial.begin(115200);
@@ -16,10 +16,8 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-}
 
-// put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
+  udp.begin();
+  UDP.broadcast()
+  delay(1000);
 }
