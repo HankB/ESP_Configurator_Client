@@ -11,6 +11,7 @@ PlatformIO (PIO) in VS Code on Debian Linux and using the Arduino library.
 ## Status
 
 * 2025-03-20 Code started (compiles) but not loaded on the ESP. And now does not compile. :-/
+* 2025-03-21 AsyncUDP broadcast sent.
 
 
 ## 2025-03-20 examples
