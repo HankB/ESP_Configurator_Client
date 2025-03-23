@@ -67,5 +67,5 @@ void loop()
   Serial.println("looping");
   udp.broadcastTo(bcast_buff, 5016);
   // udp.print(bcast_buff); also works.
-  delay(1000);
+  delay(5000);
 }
